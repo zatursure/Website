@@ -5,8 +5,9 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "deploy": "npm run build && wrangler deploy",
+    "server": "hexo server",
+    "preview": "npm run build && wrangler dev"
   },
   "hexo": {
     "version": "8.1.2"
@@ -27,5 +28,8 @@
     "hexo-server": "^3.0.0",
     "hexo-wordcount": "^6.0.1",
     "katex": "^0.17.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.107.0"
   }
 }
