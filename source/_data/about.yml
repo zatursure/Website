@@ -1,0 +1,89 @@
+- name: Zatursure
+  subtitle: 在自己的小窝里，记录技术、配置和持续成长。
+  avatarImg: /avatar.jpg
+  description: 记录问题、拆解过程、留下可复用答案的人。
+  helloAbout: Hello
+  avatarSkills:
+    left:
+      - Hexo
+      - Anzhiyu
+      - Frontend
+    right:
+      - Tools
+      - Notes
+      - Blog
+  aboutsiteTips:
+    tips: 关于本站
+    title1: Zatursureの小窝
+    title2: 记录正在发生的实践
+    word:
+      - 技术
+      - 配置
+      - 排错
+      - 写作
+      - 沉淀
+  skillsTips:
+    tips: 技能栈
+    title: 主要折腾这些方向
+  careers:
+    tips: 当前状态
+    title: 正在做的事
+    list:
+      - desc: 搭建并维护个人博客
+        color: "#425AEF"
+      - desc: 整理工程化和工具配置
+        color: "#43a6c6"
+      - desc: 把排错过程写成可复用记录
+        color: "#f2b94b"
+  map:
+    background: /img/default_cover.jpg
+    backgroundDark: /img/default_cover.jpg
+    title: 常驻
+    StrengthenTitle: 个人博客
+  selfInfo:
+    selfInfoTips1: 建站
+    selfInfoContentYear: 2026
+    selfInfoTips2: 状态
+    selfInfoContent2: 持续建设中
+    selfInfoTips3: 方向
+    selfInfoContent3: 技术记录
+  personalities:
+    author_name: Zatursure
+    personality_type: 记录者
+    photo_url: /avatar.jpg
+    personality_img: /avatar.jpg
+    name_url: https://github.com/zatursure
+    personality_type_color: "#425AEF"
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 把问题拆清楚
+    maxim_bottom: 把答案留下来
+  buff:
+    buff_tips: Buff
+    buff_top: 长期记录
+    buff_bottom: 持续迭代
+  game:
+    game_tips: 兴趣
+    game_title: 代码
+    game_uid: build in public
+    game_bg: /img/default_cover.jpg
+  comic:
+    comic_tips: 阅读
+    comic_title: 偏好内容
+    comic_list:
+      - name: 技术文档
+        href: /archives/
+        cover: /img/default_cover.jpg
+      - name: 配置记录
+        href: /categories/
+        cover: /img/default_cover.jpg
+  music:
+    music_tips: 音乐
+    music_title: 写作时保持安静
+    music_link: /archives/
+    music_bg: /img/default_cover.jpg
+  like:
+    like_tips: 关注
+    like_title: 工程化和个人站点
+    like_bottom: 让工具服务长期表达
+    like_bg: /img/default_cover.jpg
