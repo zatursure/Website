@@ -1304,7 +1304,7 @@ CDN:
     # aplayer_css:
     # aplayer_js:
     # meting_js:
-    meting_api: https://api.baka.plus/meting/
+    # meting_api: https://api.qijieya.cn/meting/
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
