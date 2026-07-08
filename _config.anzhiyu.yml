@@ -6,18 +6,15 @@ menu:
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
-    追番页: /bangumis/ || anzhiyu-icon-bilibili
-    相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    我的装备: /equipment/ || anzhiyu-icon-dice-d20
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
@@ -435,9 +432,9 @@ footer:
   runtime:
     enable: true
     launch_time: 07/07/2026 00:00:00 # 网站上线时间
-    work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
+    work_img: 
     work_description: 正在整理问题，也正在留下答案。
-    offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
+    offduty_img: 
     offduty_description: 暂时离开键盘，灵感稍后回来。
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
@@ -493,8 +490,6 @@ footer:
             link: https://github.com/zatursure
           - title: 博客源码
             link: https://github.com/zatursure/website
-          - title: Twikoo 评论
-            link: https://twikoo.zako.net.cn
       - title: 主题
         links:
           - title: Anzhiyu 文档
@@ -505,6 +500,8 @@ footer:
             link: https://hexo.io/
       - title: 协议
         links:
+          - title: 隐私政策
+            link: /privacy/
           - title: CC BY-NC-SA 4.0
             link: https://creativecommons.org/licenses/by-nc-sa/4.0/
           - title: 站点首页
@@ -520,8 +517,6 @@ footer:
         text: 源码
       - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
         text: 主题
-      - link: https://twikoo.zako.net.cn
-        text: 评论
     subTitle:
       enable: true
       # Typewriter Effect (打字效果)
@@ -698,7 +693,7 @@ activate_power_mode:
 
 # Mouse click effects: fireworks (鼠标点击效果: 烟火特效)
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -720,7 +715,7 @@ ClickShowText:
 
 # Default display mode (网站默认的显示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化页面显示)
 beautify:
@@ -1177,7 +1172,7 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: true
+  enable: false
   gptName: Zatursure
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
@@ -1199,7 +1194,7 @@ accesskey:
 
 # 友情链接顶部相关配置
 linkPageTop:
-  enable: false
+  enable: true
   title: 与数百名博主无限进步
   # 添加博主友链的评论自定义格式
   addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
@@ -1209,8 +1204,8 @@ pageThumbnailSuffix: ""
 
 # 隐私协议弹窗
 agreementPopup:
-  enable: false
-  url: /privacy
+  enable: true
+  url: /privacy/
 
 # 右键菜单
 rightClickMenu:

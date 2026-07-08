@@ -1,0 +1,36 @@
+- class_name: 好物
+  description: 实物装备推荐
+  tip: 跟 Zatursure 一起享受科技带来的乐趣
+  top_background: https://bu.dusays.com/2023/07/05/64a4c38842b7a.webp
+  good_things:
+    - title: 生产力
+      description: 提升自己生产效率的硬件设备
+      equipment_list:
+        - name: MacBook Air 2025 13 英寸
+          specification: M4 16G / 512GB
+          description: 屏幕显示效果好、传输速度快、性能强劲、续航优秀。可以用来开发和设计
+          image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/mba-13inch-15inch.png
+          link: https://support.apple.com/zh-cn/122209
+        - name: iPad Pro 2024 11 英寸
+          specification: 深空黑色 / 256GB
+          description: 事买前生产力，买后终末地
+          image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/ipad-pro-11-inch-13-inch.png
+          link: https://support.apple.com/zh-cn/119892
+        - name: iPhone 14 Pro
+          specification: 深空黑色 / 512G
+          description: 6.1 英寸的 OLED 全面屏，120Hz高刷和曲线优美的圆角设计，大小也正好一只手就抓住，唯一缺点是续航不够长
+          image: https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111846_sp875-sp876-iphone14-pro-promax.png
+          link: https://support.apple.com/zh-cn/111849
+        - name: AirPods 4
+          specification: ANC
+          description: 主动降噪贵了一点，但整整体确实比上一代提升很多
+          image: https://www.apple.com.cn/v/airpods-4/g/images/overview/stories/audio_airpod__fxaq33c1a7iy_large.jpg
+          link: https://www.apple.com.cn/airpods-4/
+    - title: 出行
+      description: 用来出行的实物及设备
+      equipment_list:
+        - name: Apple Watch S9
+          specification: 午夜色
+          description: 始终为我的健康放哨，深夜弹出站立提醒，不过确实有效的提高了我的运动频率，配合apple全家桶还是非常棒的产品，缺点依然是续航。
+          image: https://cdsassets.apple.com/live/7WUAS350/images/tech-specs/apple-watch-series-9.png
+          link: https://support.apple.com/zh-cn/111833
