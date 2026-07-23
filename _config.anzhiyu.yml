@@ -452,7 +452,7 @@ footer:
         message: 本站源码托管于 GitHub
       - link: https://creativecommons.org/licenses/by-nc-sa/4.0/
         shields: https://img.shields.io/badge/License-BY--NC--SA%204.0-f2b94b?style=flat
-        message: 本站文章采用 CC BY-NC-SA 4.0 协议
+        message: 本站文章除特殊声明外均采用 CC BY-NC-SA 4.0 协议
   socialBar:
     enable: true
     centerImg: /avatar.jpg
@@ -467,7 +467,7 @@ footer:
       - title: Github
         link: https://github.com/zatursure
         icon: anzhiyu-icon-github
-      - title: CC
+      - title: 协议
         link: https://creativecommons.org/licenses/by-nc-sa/4.0/
         icon: anzhiyu-icon-copyright-line
   list:
@@ -486,9 +486,9 @@ footer:
             link: /about/
       - title: 项目
         links:
-          - title: GitHub
-            link: https://github.com/zatursure
-          - title: 博客源码
+          - title: NekoLink
+            link: https://frp.zako.net.cn
+          - title: Blog
             link: https://github.com/zatursure/website
       - title: 主题
         links:
@@ -515,8 +515,8 @@ footer:
     linkList:
       - link: https://github.com/zatursure/website
         text: 源码
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
+      - link: https://icp.gov.moe/?keyword=20265203
+        text: 萌ICP备20265203号
     subTitle:
       enable: true
       # Typewriter Effect (打字效果)
