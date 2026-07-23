@@ -17,4 +17,4 @@ copyright: false
 </style>
 
 <div id="air-conditioner-vue"></div>
-<script defer data-pjax src="https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js"></script>
+<script defer data-pjax src="ac.js"></script>
