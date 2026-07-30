@@ -1227,12 +1227,13 @@ dynamicEffect:
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    <script defer src="https://collect.zako.net.cn/script.js" data-website-id="b933f971-ebd4-4429-82b2-d0953b64eddc"></script>
-    <script defer src="https://collect.zako.net.cn/recorder.js" data-website-id="b933f971-ebd4-4429-82b2-d0953b64eddc"></script>
+    # css only
 
   bottom:
     # 自定义js
     # - <script src="/js/xxx"></script>
+    <script defer src="https://collect.zako.net.cn/script.js" data-website-id="b933f971-ebd4-4429-82b2-d0953b64eddc"></script>
+    <script defer src="https://collect.zako.net.cn/recorder.js" data-website-id="b933f971-ebd4-4429-82b2-d0953b64eddc"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
