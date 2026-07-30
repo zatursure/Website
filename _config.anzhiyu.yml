@@ -1098,7 +1098,7 @@ LA:
 umami:
   enable: false
   # Umami API 地址，如 https://analytics.example.com
-  apiHost:
+  apiHost: 
   # 网站 ID
   websiteId:
   # API Token（在 Umami 后台 Settings -> API Keys 中生成）
@@ -1227,8 +1227,8 @@ dynamicEffect:
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # 自定义css
-    # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    <script defer src="https://collect.zako.net.cn/script.js" data-website-id="b933f971-ebd4-4429-82b2-d0953b64eddc"></script>
+    <script defer src="https://collect.zako.net.cn/recorder.js" data-website-id="b933f971-ebd4-4429-82b2-d0953b64eddc"></script>
 
   bottom:
     # 自定义js
